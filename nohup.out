@@ -1,0 +1,8 @@
+swype-app restart_count is 3
+sleep 60s.
+swype-app restart_count is 3
+sleep 60s.
+swype-app restart_count is 4
+swype-app restart_count 4 is greater than restart_limit 3.
+deployment.apps/swype-app scaled
+swype-app scaled down to 0.
